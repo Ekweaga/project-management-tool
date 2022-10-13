@@ -1,6 +1,6 @@
 import Head from 'next/head'
 import Image from 'next/image'
-import styles from '../styles/Home.module.css'
+
 
 export default function Home() {
   return (
@@ -14,7 +14,7 @@ export default function Home() {
       <header className='bg-[#043873] h-[500px] text-white'>
         <div className="flex items-center justify-around px-[20px]">
 
-        <div className="flex flex-col w-[700px]">
+        <div className="flex flex-col w-[600px]">
           <h1 className='text-5xl font-bold mb-[20px] leading-[60px]'>Get More Done with webSpace</h1>
           <p>Project Management tool that enable your team to collaborate,plan,analyze and manage everyday tasks</p>
             <div><button className='w-[200px] p-2 bg-[#FFE492] mt-[50px] text-black'>GET STARTED</button></div>
@@ -94,7 +94,7 @@ export default function Home() {
     <Image src="/anal.svg" alt="coworker" width="500px" height="500px"></Image>
     </div>
     <div className="flex flex-col w-[600px]">
-      <h1 className="text-5xl font-bold ">Work Together</h1>
+      <h1 className="text-5xl font-bold ">Easy Communication</h1>
       <span><Image src='/Elements.png' width="300px" height="20px" alt="element"></Image></span>
       <div className='mt-[20px]'>
       <p>Project Management tool that enable your team to collaborate,plan,analyze and manage everyday tasks</p>
@@ -107,17 +107,20 @@ export default function Home() {
 </div>
 
 
-<div className="h-[350px] bg-[#043873] text-white relative flex items-center justify-center">
+<div className="h-[350px] bg-[#043873] text-white relative flex items-center justify-center mt-[90px]">
 <div className='flex flex-col items-center justify-center z-10'>
-  <h1 className="font-bold text-3xl mb-[15px]">
+  <h1 className="font-bold text-4xl mb-[15px] ">
     Your work, everywhere you are
   </h1>
   <span className="-mt-[20px] ml-[250px]"><Image src='/tirbe.png' width="170px" height="10px" alt="element"></Image></span>
-  <p className="w-[900px] text-center">Access your projects from your computer,phone or tablet anywhere you go.This app allows you to work with other workers on same projects,giving updates and notifications on latest tasks to be done</p>
+  <p className="w-[700px] text-center">Access your projects from your computer,phone or tablet anywhere you go.This app allows you to work with other workers on same projects,giving updates and notifications on latest tasks to be done</p>
   <div><button className='w-[150px] p-2 bg-[#4F9CF9] mt-[50px] text-white shadow' style={{borderRadius:'10px'}}>Try webspace</button></div>
 </div>
 <div className='absolute -top-[80px] right-0 z-1 px-3'>
   <Image src="/man.png" alt="man" width="400px" height="400px"></Image>
+</div>
+<div className='absolute -top-[50px] left-0 z-1 px-3'>
+  <Image src="/BACKGROUND.png" alt="man" width="400px" height="450px"></Image>
 </div>
 </div>
 
@@ -139,10 +142,10 @@ export default function Home() {
       </div>
 
 
-  <div className="mt-[60px] mb-[60px]">
+  <div className="mt-[80px] mb-[80px] ">
 <div className="flex flex-col items-center justify-center text-center w-[50%] mx-auto">
 <h1 className="text-5xl font-bold ">Our Sponsors</h1>
-            <span><Image src='/Element.png' width="300px" height="20px" alt="element"></Image></span>
+            <span><Image src='/Element.png' width="150px" height="20px" alt="element"></Image></span>
 </div>
     <div className="w-[60%] mx-auto flex items-center justify-between mt-[30px]">
     <Image src="/apple.png" alt="coworker" width="80px" height="50px"></Image>
@@ -177,50 +180,50 @@ export default function Home() {
   </div>
 
 
-  <div className='mt-[70px] Testimonials'>
-    <div className='text-center'>
+  <div className='mt-[80px] Testimonials mb-[120px]'>
+    <div className='text-center mb-[50px]'>
       <h1 className='text-center text-2xl font-bold'>What Our Clients Says</h1>
     </div>
 
-    <div className='flex items-center justify-center gap-[20px] TestimonialsContainer'>
-      <div className='client h-[350px] w-[350px] shadow'>
+    <div className='flex items-center justify-center gap-[40px] TestimonialsContainer'>
+      <div className='client h-[300px] w-[300px] shadow flex flex-col p-3 py-[15px]' style={{boxShadow:'-1px 100px 100px rgba(0,0,0,0.1)',borderRadius:'15px'}}>
         <div>
-        <Image src='/Quote.png' width="100px" height="50px" alt="element"></Image>
-        <section>Webspace is designed as collaboration tool for businesses that is a full project management solution</section>
+        <Image src='/Quotes.png' width="50px" height="30px" alt="element"></Image>
+        <section className="text-sm mt-[25px]">Webspace is designed as collaboration tool for businesses that is a full project management solution</section>
         </div>
-        <div className='flex items-center justify-between'>
+        <div className='flex items-center justify-between mt-[80px]'>
         <Image src='/Avateraa.png' width="50px" height="50px" alt="element"></Image>
         <div>
-          <h3>Shaw Vivian</h3>
+          <h3 className="font-bold text-[#2E70BE]">Shaw Vivian</h3>
           <p>Head of Talent Acquisition</p>
         </div>
         </div>
 
       </div>
 
-      <div className='client h-[350px] w-[350px] shadow'>
+      <div className='client h-[300px] w-[300px] shadow bg-[#4F9CF9] text-white p-3 py-[15px]' style={{boxShadow:'-1px 100px 100px rgba(0,0,0,0.1)',borderRadius:'15px'}}>
         <div>
-        <Image src='/Quote.png' width="100px" height="50px" alt="element"></Image>
-        <section>Webspace is designed as collaboration tool for businesses that is a full project management solution</section>
+        <Image src='/t.png' width="50px" height="30px" alt="element"></Image>
+        <section  className="text-sm mt-[25px]">Webspace is designed as collaboration tool for businesses that is a full project management solution</section>
         </div>
-        <div className='flex items-center justify-between'>
-        <Image src='/Avateraa.png' width="50px" height="50px" alt="element"></Image>
+        <div className='flex items-center justify-between mt-[80px]'>
+        <Image src='/Avatera.png' width="50px" height="50px" alt="element"></Image>
         <div>
-          <h3>Shaw Vivian</h3>
+          <h3 className="font-bold text-[#2E70BE]">Shaw Vivian</h3>
           <p>Head of Talent Acquisition</p>
         </div>
         </div>
 
       </div>
-      <div className='client h-[350px] w-[350px] shadow'>
+      <div className='client h-[300px] w-[300px] shadow bg-[#4F9CF9] text-white p-3 py-[15px]'style={{boxShadow:'-1px 100px 100px rgba(0,0,0,0.1)',borderRadius:'15px'}}>
         <div>
-        <Image src='/Quote.png' width="100px" height="50px" alt="element"></Image>
-        <section>Webspace is designed as collaboration tool for businesses that is a full project management solution</section>
+        <Image src='/t.png' width="50px" height="30px" alt="element"></Image>
+        <section className="text-sm mt-[25px]">Webspace is designed as collaboration tool for businesses that is a full project management solution</section>
         </div>
-        <div className='flex items-center justify-between'>
-        <Image src='/Avateraa.png' width="50px" height="50px" alt="element"></Image>
+        <div className='flex items-center justify-between mt-[80px]'>
+        <Image src='/Avater.png' width="50px" height="50px" alt="element"></Image>
         <div>
-          <h3>Shaw Vivian</h3>
+          <h3 className="font-bold text-[#2E70BE]">Shaw Vivian</h3>
           <p>Head of Talent Acquisition</p>
         </div>
         </div>

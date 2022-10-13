@@ -1,5 +1,6 @@
 import React from 'react'
 import Image from 'next/image'
+import Link from 'next/link'
 
 function Navbar() {
   return (
@@ -14,7 +15,7 @@ function Navbar() {
             <li>Home</li>
             <li>Our Solutions</li>
             <li>Get Started</li>
-            <li> <span><Image src='/Btn-login.png' width="100px" height="40px" alt="element"></Image></span></li>
+            <li className='cursor-pointer'><Link href="logins"><span><Image src='/Btn-login.png' width="100px" height="40px" alt="element"></Image></span></Link> </li>
            
         </ul>
     </nav>
