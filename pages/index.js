@@ -12,7 +12,7 @@ export default function Home() {
       </Head>
 
       <header className='bg-[#043873] h-[500px] text-white'>
-        <div className="flex items-center justify-around px-[20px] flex-col md:flex-row">
+        <div className="flex items-center justify-around px-[20px] flex-col md:flex-row py-[30px]">
 
         <div className="flex flex-col md:w-[600px]">
           <h1 className='text-5xl font-bold mb-[20px] leading-[60px]'>Get More Done with webSpace</h1>
@@ -29,7 +29,7 @@ export default function Home() {
       </header>
 
 
-      <div className='OurTool mt-[80px]'>
+      <div className='OurTool md:mt-[80px] mt-[190px]'>
         <div className='OurToolContainer flex items-center justify-center px-[30px] flex-col md:flex-row'>
           <div className="flex flex-col md:w-[600px]">
             <h1 className="text-5xl font-bold ">Project <br/>Management</h1>
@@ -46,7 +46,7 @@ export default function Home() {
       </div>
 
 
-      <div className="mt-[70px]">
+      <div className="mt-[70px] mb-[160px]">
 
       <div className='OurToolContainer flex items-center justify-between px-[30px] gap-[30px]  flex-col-reverse md:flex-row'>
 
@@ -94,10 +94,12 @@ export default function Home() {
     <Image src="/anal.svg" alt="coworker" width="500px" height="500px"></Image>
     </div>
     <div className="flex flex-col md:w-[600px]">
-      <h1 className="text-5xl font-bold ">Easy Communication</h1>
+      <h1 className="md:text-5xl font-bold text-4xl">Easy <br/>Communication</h1>
       <span><Image src='/Elements.png' width="300px" height="20px" alt="element"></Image></span>
       <div className='mt-[20px]'>
-      <p>Project Management tool that enable your team to collaborate,plan,analyze and manage everyday tasks</p>
+      <p>Project Management tool that enable your team to collaborate,plan,analyze and manage everyday tasks
+      Project Management tool that enable your team to collaborate,plan,analyze and manage everyday tasks
+      </p>
       <div><button className='w-[150px] p-2 bg-[#4F9CF9] mt-[50px] text-white shadow' style={{borderRadius:'10px'}}>Try it Now</button></div>
       </div>
     </div>
@@ -107,13 +109,13 @@ export default function Home() {
 </div>
 
 
-<div className="h-[350px] bg-[#043873] text-white relative flex items-center justify-center mt-[90px]">
-<div className='flex flex-col items-center justify-center z-10'>
-  <h1 className="font-bold text-4xl mb-[15px] ">
+<div className="h-[350px] bg-[#043873] text-white relative flex items-center justify-center mt-[150px]">
+<div className='flex flex-col items-center justify-center z-10 px-2'>
+  <h1 className="font-bold md:text-4xl mb-[15px] text-4xl">
     Your work, everywhere you are
   </h1>
   <span className="-mt-[20px] ml-[250px]"><Image src='/tirbe.png' width="170px" height="10px" alt="element"></Image></span>
-  <p className="md:w-[700px] text-center">Access your projects from your computer,phone or tablet anywhere you go.This app allows you to work with other workers on same projects,giving updates and notifications on latest tasks to be done</p>
+  <p className="md:w-[700px] text-center text-sm mt-[20px]">Access your projects from your computer,phone or tablet anywhere you go.This app allows you to work with other workers on same projects,giving updates and notifications on latest tasks to be done</p>
   <div><button className='w-[150px] p-2 bg-[#4F9CF9] mt-[50px] text-white shadow' style={{borderRadius:'10px'}}>Try webspace</button></div>
 </div>
 <div className='absolute -top-[80px] right-0 z-1 px-3'>
@@ -144,14 +146,14 @@ export default function Home() {
 
   <div className="mt-[80px] mb-[80px] ">
 <div className="flex flex-col items-center justify-center text-center w-[50%] mx-auto">
-<h1 className="text-5xl font-bold ">Our Sponsors</h1>
+<h1 className="md:text-5xl font-bold text-3xl ">Our Sponsors</h1>
             <span><Image src='/Element.png' width="150px" height="20px" alt="element"></Image></span>
 </div>
     <div className="w-[80%] mx-auto grid grid-cols-2 md:grid-cols-4 items-center justify-between mt-[30px] gap-[30px]">
-    <Image src="/apple.png" alt="coworker" width="80px" height="50px"></Image>
-    <Image src="/Google.png" alt="coworker" width="100px" height="50px"></Image>
-    <Image src="/Microsoft.png" alt="coworker" width="100px" height="50px"></Image>
-    <Image src="/Slack.png" alt="coworker" width="100px" height="50px"></Image>
+    <Image src="/apple.png" alt="coworker" width="50px" height="50px"></Image>
+    <Image src="/Google.png" alt="coworker" width="50px" height="50px"></Image>
+    <Image src="/Microsoft.png" alt="coworker" width="50px" height="50px"></Image>
+    <Image src="/Slack.png" alt="coworker" width="50px" height="50px"></Image>
 
     </div>
 
@@ -181,8 +183,9 @@ export default function Home() {
 
 
   <div className='mt-[80px] Testimonials mb-[120px]'>
-    <div className='text-center mb-[50px]'>
-      <h1 className='text-center text-2xl font-bold'>What Our Clients Says</h1>
+    <div className='text-center mb-[50px] relative p-3'>
+      <h1 className='text-center md:text-4xl font-bold z-10 text-3xl'>What Our Clients Says</h1>
+      <span className="ml-[100px] -mt-[5px] z-1 absolute "><Image src='/Element.png' width="100px" height="20px" alt="element"></Image></span>
     </div>
 
     <div className='flex items-center justify-center gap-[40px] TestimonialsContainer flex-col md:flex-row'>
