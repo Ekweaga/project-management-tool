@@ -11,31 +11,78 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <header className='bg-[#043873] h-[500px] text-white'>
-        <div className="flex items-center justify-around px-[20px] flex-col md:flex-row py-[30px]">
+      <header className='bg-[#FAFAFF] h-[600px] relative flex md:justify-around items-center gap-[40px] flex-col py-4  px-2 md:mt-0 md:flex-row' >
 
-        <div className="flex flex-col md:w-[600px]">
-          <h1 className='text-5xl font-bold mb-[20px] leading-[60px]'>Get More Done with webSpace</h1>
-          <p>Project Management tool that enable your team to collaborate,plan,analyze and manage everyday tasks</p>
-            <div><button className='w-[200px] p-2 bg-[#FFE492] mt-[50px] text-black'>GET STARTED</button></div>
-        </div>
+        <div  className='md:w-[600px] md:ml-[40px]  md:mt-0'>
+          <h1 className='text-6xl mb-[20px]'>Work the way thats work for you</h1>
+          <span><Image src='/Line 2.png' width="80px" height="5px" alt="element"></Image></span>
 
-        <div>
-          <Image src="/collabo.svg" alt="coworker" width="500px" height="500px"></Image>
-        </div>
-
+          <p className="mt-[15px]">Create,Build,Collaborate and ship products very faster</p>
+          <div className='mt-[50px]'><button className='bg-[#FFE492] p-2 w-[150px]'>Get Started</button></div>
         </div>
        
+       <div className=''>
+        <div className='flex'>   <Image src="/Group 43.png" width="350px" height="350px" alt="43"></Image>
+        <Image src="/Group 44.png" width="550px" height="200px" alt="44"></Image></div>
+        <div className='flex items-center'>
+        <Image src="/Group 46.png" width="550px" height="250px" alt="45"></Image>
+        <Image src="/Group 55.png" width="200px" height="200px" alt="46"></Image>
+        </div>
+       </div>
       </header>
 
+      <div className='mt-[70px] ml-[50px]'>
+      <span><Image src='/Line 3.png' width="80px" height="5px" alt="element"></Image></span>
+      <div>
+        <p>See why over 1,000 team choose <br/>webSpace.com</p>
+      </div>
+      </div>
 
-      <div className='OurTool md:mt-[80px] mt-[190px]'>
+      <div className='mt-[100px]'>
+        <div className='whatWeDo lex flex-col items-center justify-center'>
+              <h1 className='text-center text-3xl mb-[30px]'>What you <span className='text-[#FFCA1D]'>can do?</span></h1>
+
+              <div className="flex items-center justify-around flex-col md:flex-row gap-[20px]">
+                <div className='flex flex-col items-center justify-center w-[300px]'>
+                  <Image src="/financial_icon.png" width="60px" height="60px" alt="money"></Image>
+                  <div>
+                  <h3 className='text-center text-[#7A80AA] mb-[20px] font-bold mt-[20px]'>Financial Planning</h3>
+                  <p className='text-center'>Our expert team sensible decision about their money to ensure they achieve their life goals. A financial goal</p>
+                  </div>
+                 
+                </div>
+                <div>
+                <div className='flex flex-col items-center justify-center w-[300px]'>
+                  <Image src="/market_icon.png" width="60px" height="60px" alt="market"></Image>
+                  <div>
+                  <h3 className='text-center text-[#7A80AA] mb-[20px] font-bold mt-[20px]'>Market analysis</h3>
+                  <p className='text-center'>Our expert team sensible decision about their money to ensure they achieve their life goals. A financial goal</p>
+                  </div>
+                 
+                </div>
+                </div>
+                <div>
+                <div className='flex flex-col items-center justify-center w-[300px]'>
+                  <Image src="/graph_icon.png" width="60px" height="60px" alt="graph"></Image>
+                  <div>
+                  <h3 className='text-center text-[#7A80AA] mb-[20px] font-bold mt-[20px]'>Business Planning</h3>
+                  <p className='text-center'>Our expert team sensible decision about their money to ensure they achieve their life goals. A financial goal</p>
+                  </div>
+                 
+                </div>
+                </div>
+              </div>
+        </div>
+      </div>
+
+
+      <div className='OurTool md:mt-[80px] mt-[190px] md:w-[90%] mx-auto'>
         <div className='OurToolContainer flex items-center justify-center px-[30px] flex-col md:flex-row'>
           <div className="flex flex-col md:w-[600px]">
             <h1 className="text-5xl font-bold ">Project <br/>Management</h1>
             <span><Image src='/Element.png' width="300px" height="20px" alt="element"></Image></span>
             <div className='mt-[20px]'>
-            <p>Project Management tool that enable your team to collaborate,plan,analyze and manage everyday tasks</p>
+            <p className='md:w-[450px]'>Project Management tool that enable your team to collaborate,plan,analyze and manage everyday tasks</p>
             <div><button className='w-[150px] p-2 bg-[#4F9CF9] mt-[50px] text-white shadow' style={{borderRadius:'10px'}}>GET STARTED</button></div>
             </div>
           </div>
@@ -46,20 +93,48 @@ export default function Home() {
       </div>
 
 
-      <div className="mt-[70px] mb-[160px]">
+
+
+      <div className="mt-[70px] mb-[160px] md:w-[90%] mx-auto">
+        <h1 className='text-center text-3xl mb-[60px]'>Our <span className='text-[#FFCA1D]'>Features</span></h1>
 
       <div className='OurToolContainer flex items-center justify-between px-[30px] gap-[30px]  flex-col-reverse md:flex-row'>
 
       <div>
-          <Image src="/toget.png" alt="coworker" width="500px" height="500px"></Image>
+          <Image src="/Group 32.png" alt="coworker" width="500px" height="500px"></Image>
           </div>
           <div className="flex flex-col md:w-[600px]">
-            <h1 className="text-5xl font-bold ">Work Together</h1>
-            <span><Image src='/Elements.png' width="300px" height="20px" alt="element"></Image></span>
+            <h1 className="text-5xl font-bold ">Manage everything on one workspace</h1>
+            <span><Image src='/Line 3.png' width="100px" height="6px" alt="element"></Image></span>
             <div className='mt-[20px]'>
-            <p>Project Management tool that enable your team to collaborate,plan,analyze and manage everyday tasks</p>
+            <p className="md:w-[450px]">Planning,tracking and delivering your team best work has been made easier. An integrated workspace thats simple to use
+              . TeamFlow lets you spend less time managing work and more time  actually doing it
+            </p>
+           
+            </div>
+          </div>
+         
+        </div>
+
+      </div>
+
+      <div className="mt-[70px] mb-[160px] md:w-[90%] mx-auto">
+
+      <div className='OurToolContainer flex items-center justify-between px-[30px] gap-[30px]  flex-col-reverse md:flex-row'>
+
+      
+          <div className="flex flex-col md:w-[600px]">
+            <h1 className="text-5xl font-bold ">Save your time with automations</h1>
+            <span><Image src='/Line 3.png' width="100px" height="6px" alt="element"></Image></span>
+            <div className='mt-[20px]'>
+            <p className="md:w-[450px]">Automate the repetitive works in seconds so you can avoid human errors and focus on what matters.
+              It gives the impression of software that its highly automated which implies that is good for client who want to save time and manage team easily
+            </p>
             <div><button className='w-[150px] p-2 bg-[#4F9CF9] mt-[50px] text-white shadow' style={{borderRadius:'10px'}}>Try it Now</button></div>
             </div>
+          </div>
+          <div>
+          <Image src="/Group 68.png" alt="coworker" width="500px" height="500px"></Image>
           </div>
          
         </div>
@@ -85,22 +160,46 @@ export default function Home() {
       </div>
 
 
+      <div className="mt-[70px]  py-4 md:w-[90%] mx-auto">
 
-      <div className="mt-[70px]">
+<div className='OurToolContainer flex items-center justify-between px-[30px] gap-[30px] flex-col md:flex-row'>
+
+
+    <div className="flex flex-col md:w-[600px]">
+      <h1 className="md:text-5xl font-bold text-4xl">24/7 customer support</h1>
+      <span><Image src='/Line 3.png' width="80px" height="5px" alt="element"></Image></span>
+      <div className='mt-[20px]'>
+      <p className="md:w-[450px]">Get started fast with hundreds of visual and customizable templates. Use our free online template maker to create 
+        beautiful templates in minutes. Choose from hundreds of pre-made templates and tell stories with data our easy drag and drop creator
+      </p>
+    
+      </div>
+    </div>
+
+    <div>
+    <Image src="/Group 76.png" alt="coworker" width="500px" height="500px"></Image>
+    </div>
+   
+  </div>
+
+</div>
+
+
+      <div className="mt-[70px] bg-[#FAFAFF] py-4">
 
 <div className='OurToolContainer flex items-center justify-between px-[30px] gap-[30px] flex-col md:flex-row'>
 
 <div>
-    <Image src="/anal.svg" alt="coworker" width="500px" height="500px"></Image>
+    <Image src="/Group 65.png" alt="coworker" width="500px" height="500px"></Image>
     </div>
     <div className="flex flex-col md:w-[600px]">
-      <h1 className="md:text-5xl font-bold text-4xl">Easy <br/>Communication</h1>
-      <span><Image src='/Elements.png' width="300px" height="20px" alt="element"></Image></span>
+      <h1 className="md:text-5xl font-bold text-4xl">Set up in minutes</h1>
+      <span><Image src='/Line 3.png' width="80px" height="5px" alt="element"></Image></span>
       <div className='mt-[20px]'>
-      <p>Project Management tool that enable your team to collaborate,plan,analyze and manage everyday tasks
-      Project Management tool that enable your team to collaborate,plan,analyze and manage everyday tasks
+      <p className="md:w-[450px]">Get started fast with hundreds of visual and customizable templates. Use our free online template maker to create 
+        beautiful templates in minutes. Choose from hundreds of pre-made templates and tell stories with data our easy drag and drop creator
       </p>
-      <div><button className='w-[150px] p-2 bg-[#4F9CF9] mt-[50px] text-white shadow' style={{borderRadius:'10px'}}>Try it Now</button></div>
+    
       </div>
     </div>
    
@@ -109,77 +208,54 @@ export default function Home() {
 </div>
 
 
-<div className="h-[350px] bg-[#043873] text-white relative flex items-center justify-center mt-[150px]">
-<div className='flex flex-col items-center justify-center z-10 px-2'>
-  <h1 className="font-bold md:text-4xl mb-[15px] text-4xl">
-    Your work, everywhere you are
-  </h1>
-  <span className="-mt-[20px] ml-[250px]"><Image src='/tirbe.png' width="170px" height="10px" alt="element"></Image></span>
-  <p className="md:w-[700px] text-center text-sm mt-[20px]">Access your projects from your computer,phone or tablet anywhere you go.This app allows you to work with other workers on same projects,giving updates and notifications on latest tasks to be done</p>
-  <div><button className='w-[150px] p-2 bg-[#4F9CF9] mt-[50px] text-white shadow' style={{borderRadius:'10px'}}>Try webspace</button></div>
-</div>
-<div className='absolute -top-[80px] right-0 z-1 px-3'>
-  <Image src="/man.png" alt="man" width="400px" height="400px"></Image>
-</div>
-<div className='absolute -top-[50px] left-0 z-1 px-3'>
-  <Image src="/BACKGROUND.png" alt="man" width="400px" height="450px"></Image>
-</div>
+<div className=" flex flex-col items-center justify-center mt-[70px]">
+
+  <div>
+    <h1 className="text-center text-3xl"><span className='text-[#FFCA1D]'>Integrate</span> with your existing tools </h1>
+    <h1 className="text-center text-3xl">in a few clicks</h1>
+  </div>
+
+  <div className='grid grid-cols-2 md:grid-cols-4 gap-[30px] mt-[50px] '>
+    
+    <Image src="/image16.png" width="100px" height="100px" alt="16"></Image>
+    <Image src="/image17.png" width="100px" height="100px" alt="17"></Image>
+     <Image src="/image21.png" width="100px" height="100px" alt="18"></Image>
+     <Image src="/image19.png" width="100px" height="100px" alt="19"></Image>
+  </div>
+
 </div>
 
 
-<div className='OurTool mt-[80px]'>
-        <div className='OurToolContainer flex items-center justify-center px-[30px] flex-col md:flex-row'>
-          <div className="flex flex-col md:w-[600px]">
-            <h1 className="text-5xl font-bold ">100% your data</h1>
-            <span><Image src='/Element.png' width="300px" height="20px" alt="element"></Image></span>
-            <div className='mt-[20px]'>
-            <p>Project Management tool that enable your team to collaborate,plan,analyze and manage everyday tasks</p>
-            <div><button className='w-[150px] p-2 bg-[#4F9CF9] mt-[50px] text-white shadow' style={{borderRadius:'10px'}}>GET STARTED</button></div>
-            </div>
-          </div>
-          <div>
-          <Image src="/space.png" alt="coworker" width="500px" height="350px"></Image>
-          </div>
-        </div>
+<div className="mt-[70px] bg-[#FAFAFF] py-4">
+
+<div className='OurToolContainer flex items-center justify-between px-[30px] gap-[30px] flex-col md:flex-row  w-[90%] mx-auto'>
+
+
+    <div className="flex flex-col md:w-[600px]">
+      <h1 className="md:text-5xl font-bold text-4xl">Set up in minutes</h1>
+      <span><Image src='/Line 3.png' width="80px" height="5px" alt="element"></Image></span>
+      <div className='mt-[20px]'>
+      <p className="md:w-[450px]">Get started fast with hundreds of visual and customizable templates. Use our free online template maker to create 
+        beautiful templates in minutes. Choose from hundreds of pre-made templates and tell stories with data our easy drag and drop creator
+      </p>
+    
       </div>
-
-
-  <div className="mt-[80px] mb-[80px] ">
-<div className="flex flex-col items-center justify-center text-center w-[50%] mx-auto">
-<h1 className="md:text-5xl font-bold text-3xl ">Our Sponsors</h1>
-            <span><Image src='/Element.png' width="150px" height="20px" alt="element"></Image></span>
-</div>
-    <div className="w-[80%] mx-auto grid grid-cols-2 md:grid-cols-4 items-center justify-between mt-[30px] gap-[30px]">
-    <Image src="/apple.png" alt="coworker" width="50px" height="50px"></Image>
-    <Image src="/Google.png" alt="coworker" width="50px" height="50px"></Image>
-    <Image src="/Microsoft.png" alt="coworker" width="50px" height="50px"></Image>
-    <Image src="/Slack.png" alt="coworker" width="50px" height="50px"></Image>
-
     </div>
+
+    <div>
+    <Image src="/Group 71.png" alt="coworker" width="500px" height="500px"></Image>
+    </div>
+   
+  </div>
+
+</div>
 
 
   
 
 
-  </div>
 
-
-
-  <div className='OurToolContainer flex items-center justify-around px-[30px] gap-[30px] bg-[#043873] p-6 text-white flex-col md:flex-row'>
-
-<div>
-    <Image src="/Apps.png" alt="coworker" width="300px" height="300px"></Image>
-    </div>
-    <div className="flex flex-col md:w-[600px]">
-      <h1 className="text-5xl font-bold ">Work with your favourite Apps using Webspace</h1>
-      <span><Image src='/Elements.png' width="300px" height="20px" alt="element"></Image></span>
-      <div className='mt-[20px]'>
-      <p>Webspace team up with your favourite software integrate over 20+ software needed for your project</p>
-      <div><button className='w-[150px] p-2 bg-[#4F9CF9] mt-[50px] text-white shadow' style={{borderRadius:'10px'}}>Try it Now</button></div>
-      </div>
-    </div>
-   
-  </div>
+  
 
 
   <div className='mt-[80px] Testimonials mb-[120px]'>
@@ -231,6 +307,19 @@ export default function Home() {
         </div>
         </div>
 
+      </div>
+    </div>
+  </div>
+
+  <div className="bg-[#FAFAFF] h-[300px] py-4 flex flex-col items-center justify-center">
+    <div className='flex flex-col items-center justify-center'>
+      <div>
+        <h3 className="text-red-700 text-center">Support</h3>
+        <h2 className='text-[#9395A8] md:text-3xl text-2xl'>Subscribe Newsletter and get</h2>
+        <h4 className=" text-center">Company News</h4>
+      </div>
+      <div className="flex items-center justify-center gap-[20px] p-2 bg-white mt-[30px]" style={{boxShadow:'-1px 100px 100px rgba(0,0,0,0.1)',borderRadius:'15px'}}>
+ <Image src="/email 1.png" width="30px" height="30px" placeholder="enter email" alt="email"></Image><input type="email" className="bg-white text-black focus:outline-white px-2" placeholder="enter email"/><button className='bg-blue-700 p-2 text-white h-[30px] flex items-center justify-center text-sm' style={{borderRadius:'20px'}}>Subscribe</button>
       </div>
     </div>
   </div>

@@ -6,7 +6,7 @@ function Navbar() {
   const [open,setOpen] = useState(false)
   return (
     <>
-    <nav className='text-white bg-[#043873] h-[80px] flex justify-between items-center px-[30px] '>
+    <nav className='text-white bg-[#4B4AEF] h-[80px] flex justify-between items-center px-[30px] '>
         <div>
             <h1 className='font-bold text-2xl'>
                 WebSpace
